@@ -1,4 +1,6 @@
-# legacy-crud-app
+# solana-atomic-blog
+
+This program is created by using Anchor template.
 
 ## Getting Started
 
