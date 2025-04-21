@@ -1,0 +1,10 @@
+/home/jirok/workspace/solana/bootcamp-temp/crud-app/anchor/target/sbpf-solana-solana/release/deps/libsolana_frozen_abi-730d1338c63f8ef7.rmeta: /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/lib.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_digester.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_example.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/hash.rs
+
+/home/jirok/workspace/solana/bootcamp-temp/crud-app/anchor/target/sbpf-solana-solana/release/deps/libsolana_frozen_abi-730d1338c63f8ef7.rlib: /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/lib.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_digester.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_example.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/hash.rs
+
+/home/jirok/workspace/solana/bootcamp-temp/crud-app/anchor/target/sbpf-solana-solana/release/deps/solana_frozen_abi-730d1338c63f8ef7.d: /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/lib.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_digester.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_example.rs /home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/hash.rs
+
+/home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/lib.rs:
+/home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_digester.rs:
+/home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/abi_example.rs:
+/home/jirok/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.18.19/src/hash.rs:
