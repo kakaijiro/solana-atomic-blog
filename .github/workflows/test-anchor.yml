@@ -37,6 +37,15 @@ jobs:
       - name: Check solana config
         run: solana config get
 
+      - uses: actions-rs/toolchain@v1
+              with:
+                profile: minimal
+                toolchain: nightly
+                override: true
+
+      - name: Install Rust nightly components
+        run: rustup component add rustfmt clippy
+
       - name: Build Anchor project
         run: npm run anchor build
         shell: bash
