@@ -38,10 +38,10 @@ jobs:
         run: solana config get
 
       - uses: actions-rs/toolchain@v1
-              with:
-                profile: minimal
-                toolchain: nightly
-                override: true
+        with:
+          profile: minimal
+          toolchain: nightly
+          override: true
 
       - name: Install Rust nightly components
         run: rustup component add rustfmt clippy
