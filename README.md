@@ -7,7 +7,6 @@ This program is created by using Anchor template.
 ### Prerequisites
 
 - Node v18.18.0 or higher
-
 - Rust v1.77.2 or higher
 - Anchor CLI 0.30.1 or higher
 - Solana CLI 1.18.17 or higher
@@ -29,8 +28,26 @@ pnpm install
 
 #### Start the web app
 
-```
+```shell
 pnpm dev
+```
+
+## Structure
+
+```
+crud-app/
+├── anchor/           # Solana program written in Rust using the Anchor framework
+│   ├── src/
+│   ├── migrations/
+│   └── ...
+├── src/ or web/      # React frontend app for interacting with the Solana program
+│   ├── app/
+│   ├── components/
+│   └── ...
+├── public/           # Static assets for the web app
+├── .github/          # GitHub Actions and workflow files (if present)
+├── README.md         # Project documentation
+└── package.json      # Project configuration and scripts
 ```
 
 ## Apps
@@ -41,13 +58,11 @@ This is a Solana program written in Rust using the Anchor framework.
 
 #### Commands
 
-You can use any normal anchor commands. Either move to the `anchor` directory and run the `anchor` command or prefix the
-command with `pnpm`, eg: `pnpm anchor`.
+You can use any normal anchor commands. Either move to the `anchor` directory and run the `anchor` command or prefix the command with `pnpm`, eg: `pnpm anchor`.
 
 #### Sync the program id:
 
-Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the
-Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
+Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
 
 You will manually need to update the constant in `anchor/lib/counter-exports.ts` to match the new program id.
 
